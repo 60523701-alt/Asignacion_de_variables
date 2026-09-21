@@ -1,0 +1,28 @@
+#operadore cadena
+print("cadena 1" + "cadena 2")
+nom1= "Juan Dvid"
+nom2= "Alexander"
+print(nom1 + " y " + nom2 + " son compañeros")
+
+nombre= input("¿me puedes dar tu nombre?: ")
+apellido= input("¿me puedes dar tu apellido?: ")
+print("gracias.")
+print("\nTu nombre es " + nombre + " " + apellido + ".")
+
+print("James" * 3)
+print(3 * "an")
+print(5 * "2")
+print("+" + 50 * "-" + "+")
+print(("|" + " " * 50 + "|\n") * 5, end="")
+print("+" + 53 * "-" + "+")
+
+print("       __")
+print("    .-'  `-.")
+print("   /  o  o  \\")
+print("  |     ^    |")
+print("   \\  '-'   /")
+print("    `-.__.-'")
+print("  __/      \\__")
+print(" /  \\      /  \\")
+print("(    )----(    )")
+print(" \\__/      \\__/")
