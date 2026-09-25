@@ -1,0 +1,24 @@
+# nombre= input("¿Me puedes dar tu nombre? :")
+# apellido= input("¿Me puedes dar tu apellido? :")
+# print("gracias \ntu nombre es " + nombre + " " + apellido + ".")
+
+numbre1 = int(50.56)
+numbre2 = float(40)
+numbre3 =25.68
+print(str(numbre1) + " " + str(numbre2) + " " + str(numbre3))
+# ingresa un valor flotante para la variable a aquí
+numero = float(input("Ingrese el primer numero flotante: "))
+# ingresa un valor flotante para la variable b aquí
+numero2 = float(input("Ingrese el segundo numero flotante: "))
+suma = numero + numero2
+resta = numero - numero2
+multiplicacion = numero * numero2
+division = numero / numero2
+# mostrar el resultado de la suma aquí
+# mostrar el resultado de la resta aquí
+# mostrar el resultado de la multiplicación aquí
+# mostrar el resultado de la división aquí
+print("La suma es: " + str(suma)
+       + "\nLa resta es: " + str(resta) 
+       + "\nLa multiplicación es: " + str(multiplicacion) 
+       + "\nLa división es: " + str(division))
