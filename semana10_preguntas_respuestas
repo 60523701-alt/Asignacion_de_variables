@@ -1,0 +1,34 @@
+print(2==2)
+print(2 == 2.0)
+print(1 == 2)
+
+var =10
+print(var == 10)
+var =15
+print(var == 10)
+
+# ejercicio
+white_sheep = int(input("Ingrese la cantidad de ovejas blancas: "))
+black_sheep = int(input("Ingrese la cantidad de ovejas negras: "))
+print(white_sheep == (2 * black_sheep))
+
+var = 20  # Asignando 20 a var
+print(var != 20)
+ 
+var = 15  # Asignando 15 a var
+print(var != 10)
+
+# operadores de comparacion: mayor que (>)
+ovejas_blancas = 15
+ovejas_negras = 10
+print(ovejas_blancas > ovejas_negras) 
+
+# operadores de comparacion: mayor o igual (>=)
+ovejas_blancas = 20
+ovejas_negras = 20
+print(ovejas_blancas >= ovejas_negras)  
+
+# operadores de comparacion: menor o igual (<=)
+ovejas_blancas = 40
+ovejas_negras = 40
+print(ovejas_blancas <= ovejas_negras)  
