@@ -1,0 +1,46 @@
+# haciendo uso de las respuestas
+nm_leones = 15
+nm_tigres = 10
+respuesta = nm_leones >= nm_tigres
+print(respuesta)
+
+n = int(input("Ingrese un número: "))
+print(n < 100)
+print(n >= 100)
+#  Condiciones y ejecución condicional
+# Ejecución condicional: la sentencia if
+contador = 120
+if contador > 120:
+    print("dormir y sonar")
+contador = 150
+if contador > 120:
+    print("preparar la cama")
+    print("tomar una ducha")
+    print("dormir y sonar")
+print("alimentar perros y ovejas")
+
+clima = 35
+if clima > 20:
+    print("salir al parque")
+else:
+    print("quedarse en casa sombreado")
+print("tomar almuerzo")
+
+# Sentencias if-else anidadas
+calificacion_restaurante = 5
+cantidad_baletos = 0
+clima = float(input("Ingrese la temperatura en grados celsios: "))
+print("el clima actual es " + str(clima) + " C°")
+if clima > 20:
+    print("salir al parque")
+    if calificacion_restaurante >= 8:
+        print("almorzaremos alli")
+    else:
+        print("comeremos sandwiches ")
+else:
+    print("quedarse en casa sombreado")
+    if cantidad_baletos > 0:
+        print("veremos una pelicula")
+    else:
+        print("iremos de shopping a real plaza")
+print("regresamos a casa")
