@@ -1,0 +1,28 @@
+ingreso = float(input("Ingrese su ingreso: "))
+lim_ingreso = 85528
+igv = 0.18
+if ingreso <= lim_ingreso:
+    impuesto = ingreso * igv - 556.02
+else:
+    impuesto = 14839.02 + (ingreso - lim_ingreso) * 0.32
+
+if impuesto < 0:
+    impuesto = 0.0
+
+impuesto = round(impuesto)
+
+print("El impuesto es:", float(impuesto), "pesos")
+
+
+anio = int(input("Ingrese un año: "))
+
+if anio < 1582:
+    print("No dentro del período del calendario gregoriano")
+elif anio % 4 != 0:
+    print("Año comun")
+elif anio % 100 != 0:
+    print("Año bisiesto")
+elif anio % 400 != 0:
+    print("Año comun")
+else:
+    print("Año bisiesto")
