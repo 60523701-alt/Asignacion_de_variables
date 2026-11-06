@@ -1,0 +1,76 @@
+#while True:
+#print("Estoy atrapado dentro de un bucle.")
+
+#while False:
+#print("Estoy atrapado dentro de un bucle.")
+
+# ejemplo 01
+#    Almacena el actual número más grande aquí.
+tamanio_numero = -999999999
+ 
+# Ingresa el primer valor.
+numero = int(input("Introduce un número o escribe -1 para detener: "))
+ 
+# Si el número no es igual a -1, continuaremos
+while numero != -1:
+    # ¿Es el número más grande que el valor de tamanio_numero?
+    if numero > tamanio_numero:
+        # Sí si, se actualiza tamanio_numero.
+        tamanio_numero = numero
+    # Ingresa el siguiente número.
+    numero = int(input("Introduce un número o escribe -1 para detener: "))
+ 
+# Imprime el número más grande.
+print("El número más grande es:", tamanio_numero)
+
+# ejemplo 02
+odd_numeros = 0
+even_numeros = 0
+ 
+# Lee el primer número.
+numero = int(input("Introduce un número o escribe 0 para detener: "))
+ 
+# 0 termina la ejecución.
+while numero != 0:
+    # Verificar si el número es impar.
+    if numero % 2 == 1:
+        # Incrementar el contador de números impares odd_numbers.
+        odd_numeros += 1
+    else:
+        # Incrementar el contador de números pares even_numbers.
+        even_numeros += 1
+    # Leer el siguiente número.
+    numero = int(input("Introduce un número o escribe 0 para detener: "))
+ 
+# Imprimir resultados.
+print("Conteo de números impares:", odd_numeros)
+print("Conteo de números pares:", even_numeros)
+
+ # ejemplo 03
+counter = 5
+while counter != 0:
+    print("Dentro del bucle.", counter)
+    counter -= 1
+print("Fuera del bucle.", counter)
+
+# actividad
+numero_secreto = 7
+
+print(
+"""
++================================+
+| ¡Bienvenido a mi juego, muggle!|
+| Introduce un número entero     |
+| y adivina qué número he        |
+| elegido para ti.               |
+|¿Cuál es el número secreto?     |
++================================+
+""")
+
+numero = int(input("Ingresa un número entero: "))
+
+while numero != numero_secreto:
+    print("¡Ja, ja! ¡Estás atrapado en mi bucle!")
+    numero = int(input("Ingresa un número entero: "))
+
+print("El numero secreto es:" + str(numero_secreto) + " \n¡Bien hecho, muggle! Eres libre ahora.")
